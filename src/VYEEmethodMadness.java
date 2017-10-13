@@ -1,11 +1,10 @@
 // Vivian Yee
-// Project 1 Method Madness
 // Period 2
-// 10/6/17
+// Project 1 Method Madness
 
 public class VYEEmethodMadness {
 	public static void main(String []args) {
-		isPalindrome("racecar");
+		isPalindrome("whatatw");
 		cutOut("butterfly","butter");
 		sumUpTo(5);
 	}

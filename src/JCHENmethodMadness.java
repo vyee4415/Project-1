@@ -1,6 +1,7 @@
-//Jacky Chen
-//Period 2
-//Method Madness
+// Jacky Chen
+// Period 2
+// Project 1 Method Madness
+
 public class JCHENmethodMadness {
 
 	public static void main(String[] args) {
