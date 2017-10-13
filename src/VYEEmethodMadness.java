@@ -3,7 +3,7 @@
 // Period 2
 // 10/6/17
 
-public class methodMadness {
+public class VYEEmethodMadness {
 	public static void main(String []args) {
 		isPalindrome("racecar");
 		cutOut("butterfly","butter");
