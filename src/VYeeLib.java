@@ -2,12 +2,7 @@
 // Period 2
 // Project 1 Method Madness
 
-public class VYEEmethodMadness {
-	public static void main(String []args) {
-		isPalindrome("whatatw");
-		cutOut("butterfly","butter");
-		sumUpTo(5);
-	}
+public class VYeeLib {
 	public static boolean isPalindrome(String word){
 	    int x = 0, y = word.length() - 1;
 	    while (x < y) {
@@ -22,27 +17,8 @@ public class VYEEmethodMadness {
 	    System.out.println("true"); // Same here as before.
 	    return true;
 	}
-	public static void cutOut(String mainStr, String subStr) {
-		int x = 0, y = 0, z = 0, count = 0;
-		while(x < mainStr.length()) {
-			if(subStr.charAt(y)==mainStr.charAt(x)) {
-				while(y<=subStr.length()) {
-					if(subStr.charAt(y)==mainStr.charAt(z)) {
-						z++;
-						y++;
-						count++;
-					}else {
-						break;
-					}
-				}
-				if(count==subStr.length()) {
-					mainStr = mainStr.replaceFirst(subStr," ");
-					System.out.print(mainStr);
-				}
-			}
-			x++;
-			z++;
-		}
+	public static String cutOut(String mainStr, String subStr) {
+		return  "string";
 	}
 	public static int sumUpTo(int x) {
 		int z = 0;

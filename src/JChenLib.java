@@ -2,13 +2,8 @@
 // Period 2
 // Project 1 Method Madness
 
-public class JCHENmethodMadness {
+public class JChenLib {
 
-	public static void main(String[] args) {
-		isFibonnaci(100);
-		multiplicationTable(5,5);
-		dateStr("03/07/00");
-	}
 	public static boolean isFibonnaci(int num)
 	{
 		int x=0; int y=0; int z=1;
