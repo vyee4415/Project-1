@@ -4,29 +4,33 @@
 
 public class VYeeLib {
 	public static boolean isPalindrome(String word){
-	    int x = 0, y = word.length() - 1;
+	    int x = 0, y = word.length() - 1; // Initialize counters
 	    while (x < y) {
-	        if (word.charAt(x) != word.charAt(y)) {
-	        	System.out.println("false"); // I couldn't see the return statement in the console,
-	            return false;			   // So I just printed it out to make sure it was working.
+	        if (word.charAt(x) != word.charAt(y)) { // Compare letters
+	            return false;
 	        }else {
-	        	x++;
-	        	y--;
+	        	x++; // Go to letter after
+	        	y--; // Go to letter before
 	        }
 	    }
-	    System.out.println("true"); // Same here as before.
 	    return true;
 	}
+	
 	public static String cutOut(String mainStr, String subStr) {
-		return  "string";
-	}
-	public static int sumUpTo(int x) {
-		int z = 0;
-		for(int y = 0;y <= x; y++) {
-			z = z + y;
+		if(mainStr.indexOf(subStr)==-1){ // If subStr not in mainStr return mainStr
+			return mainStr;
+		}else {
+			int x = mainStr.indexOf(subStr); // x is placeholder of index
+			return(mainStr.substring(0, x)+mainStr.substring(x+subStr.length(),mainStr.length()));
 		}
-		System.out.print(z); // I couldn't see the return statement in the console,
-		return z;			// So I just printed it out to make sure it was working.
+	}
+	
+	public static int sumUpTo(int x) {
+		int z = 0; // Starts at 0
+		for(int y = 0;y <= x; y++) {
+			z = z + y; // Adds every number before integer x
+		}
+		return z;
 	}
 }
 
