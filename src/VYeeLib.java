@@ -6,7 +6,7 @@ public class VYeeLib {
 	public static boolean isPalindrome(String word){
 	    int x = 0, y = word.length() - 1; // Initialize counters
 	    while (x < y) {
-	        if (word.charAt(x) != word.charAt(y)) { // Compare letters
+	        if (word.charAt(x) != word.charAt(y)) { // Compares letters
 	            return false;
 	        }else {
 	        	x++; // Go to letter after
